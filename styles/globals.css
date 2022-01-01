@@ -1,0 +1,157 @@
+a { cursor: pointer; }
+
+.app-container {
+    min-height: 350px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  button{
+      margin: 5px;
+  }
+  iframe{
+      border-radius: 10px;
+padding:5px;
+  }
+  h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /* main cards */
+  .container{
+      display: flex;
+  }
+  
+  .tracks-container{
+      flex-grow: 1;
+      margin: 1%;
+      background-color: #ffffff;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  /* add */
+  .add{
+      margin: 1%;
+      width: 320px;
+      background-color: #ffffff;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      height: 270px;
+  }
+  
+  #addicon{
+      position: relative;
+      margin: 10px;
+      left: 40%;
+      cursor: pointer;
+  }
+  
+  
+  /* playlists */
+  #title{
+      font-size: 30px;
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+      margin: 0;
+  }
+  
+  .bar{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      background: #4eaca4;
+      color: white;
+      padding: 10px;
+  }
+  
+ 
+  
+  
+  td{
+      padding: 10px;
+      border-bottom: 2px solid rgba(31, 160, 63, 0.31);
+  }
+  
+  tr:hover td{
+      background-color: rgba(158, 241, 179, 0.31);
+      transition: background-color 0.1s linear;
+      cursor: pointer;
+  }
+  
+  /* controller */
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  /* theme UI */
+  
+  
+  /* general */
+  
+  #main-head{
+      margin: 1px;
+      font-size: 82px;
+      text-align: center;
+      background-color: #565656;
+        color: transparent;
+        text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+        -webkit-background-clip: text;
+      -moz-background-clip: text;
+            background-clip: text;
+  }
+  
+  *{
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  h3{
+      font-size: 13px;
+      position: relative;
+      margin-bottom: 4px;
+  }
+  
+  input{
+      margin: 0px;
+      position: relative;
+      width: 95%;
+      border-radius: 10px;
+      padding: 2px;
+  }
+  
+  ion-icon{
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      margin-left: 15px;
+      float:left;
+  }
+  
+  body{
+      background-color: #E7ECEF;
+      min-height: 500px;
+      min-width: 500px;
+  }
+  
+  form{
+      padding-left: 10px;
+  }
+  
+  select{
+      margin-left: 10px;
+  }
+  

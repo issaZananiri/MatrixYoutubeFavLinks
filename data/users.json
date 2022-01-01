@@ -1,0 +1,22 @@
+[
+    {
+        "firstName": "Issa",
+        "lastName": "Zananiri",
+        "username": "issaZananiri",
+        "email": "issazananiri98@gmail.com",
+        "hash": "$2a$10$K/AQ1El9a813La.3ObOEOOGRUY7elPlGRFuJOfc0hX5rXdLe/kbPG",
+        "id": 1,
+        "dateCreated": "2022-01-01T17:41:59.598Z",
+        "dateUpdated": "2022-01-01T17:41:59.598Z"
+    },
+    {
+        "firstName": "Issa",
+        "lastName": "Zananiri",
+        "username": "issazananiri",
+        "email": "issazananiri98@gmail.com",
+        "hash": "$2a$10$416O6FxtySkTSfhAVyuxae7KtlL./Yo6c3pP9Sr7ddynmy2cli5cW",
+        "id": 2,
+        "dateCreated": "2022-01-01T17:51:44.050Z",
+        "dateUpdated": "2022-01-01T17:51:44.050Z"
+    }
+]
